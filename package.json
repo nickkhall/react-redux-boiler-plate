@@ -1,0 +1,45 @@
+{
+  "name": "pizza-hut-boilerplate",
+  "version": "0.0.1",
+  "description": "React / Redux boilerplate for future Pizza Hut projects",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nickkhall/react-redux-boiler-plate.git"
+  },
+  "scripts": {
+    "dev": "webpack && webpack-dev-server --colors --hot"
+  },
+  "author": "Nick Hall",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nickkhall/react-redux-boiler-plate/issues"
+  },
+  "dependencies": {
+    "path": "^0.12.7",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-redux": "^5.0.5",
+    "react-router": "^4.1.1",
+    "react-router-dom": "^4.1.1",
+    "redux": "^3.6.0",
+    "redux-thunk": "^2.2.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^6.4.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-register": "^6.24.1",
+    "css-loader": "^0.28.0",
+    "font-awesome": "^4.7.0",
+    "html-webpack-plugin": "^2.29.0",
+    "node-sass": "^4.5.2",
+    "sass-loader": "^6.0.3",
+    "style-loader": "^0.16.1",
+    "webpack": "1.13.2",
+    "webpack-dev-server": "1.16.1"
+  },
+  "homepage": "https://github.com/nickkhall/react-redux-boiler-plate#readme"
+}
