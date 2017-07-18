@@ -5,7 +5,7 @@ import { Provider } from 'react-redux'
 import { Router, Route, IndexRoute, IndexRedirect, browserHistory } from 'react-router'
 
 // Styles
-// import css from './client/sass/main.scss'
+import css from './styles/main.scss'
 
 // Containers
 import App from "./containers/App"

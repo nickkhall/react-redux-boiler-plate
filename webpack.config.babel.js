@@ -33,7 +33,7 @@ const base = {
   module: {
     loaders: [
       { test: /\.js$/, exclude: /node_modules/, loader: 'babel-loader' },
-      { test: /\.css$/, loader: 'style-loader!css-loader' }
+      { test: /\.css|\.scss$/, loader: 'style-loader!css-loader' }
     ]
   }
 }
